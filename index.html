@@ -13,17 +13,23 @@
 <body>
     <header>
         <h1>Pollution Alert System – Save Alandi River</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#report">Report Pollution</a></li>
-                <li><a href="#map">Pollution Map</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="nav-buttons">
+            <a href="#home">Home</a>
+            <a href="#report">Report Pollution</a>
+            <a href="#map">Pollution Map</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
     </header>
-
+    <main class="main-content">
+        <h2>Welcome to the Pollution Alert System</h2>
+        <p>Help us keep Alandi River clean by reporting pollution!</p>
+        <a href="#submit-report" class="report-btn">
+            <i class="fas fa-exclamation-circle"></i>
+            <span>Submit Report</span>
+        </a>
+        <h3>Pollution Hotspots</h3>
+    </main>
     <section id="home">
         <h2>Welcome to the Pollution Alert System</h2>
         <p>Help us keep Alandi River clean by reporting pollution!</p>
@@ -57,7 +63,7 @@
         <a href="mailto:info@pollutionalert.com" class="button-link">
             <i class="fas fa-envelope"></i> Email Us
         </a>
-    </section>
+    </section>      
 
     <section id="map">
         <h2>Pollution Hotspots</h2>
@@ -86,7 +92,7 @@
     </section>
 
     <footer>
-        <p>© 2024 Pollution Alert System</p>
+        <p>© Aqua Squad (Design Thinking)</p>
     </footer>
 
     <script src="script.js"></script>
