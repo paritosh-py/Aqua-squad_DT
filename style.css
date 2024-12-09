@@ -1,154 +1,78 @@
-/* style.css */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
 }
 
+/* Header */
 header {
-    background-color: #4CAF50;
+    background-color: #0074d9;
     color: white;
-    text-align: center;
+    padding: 20px 10px;
+    font-size: 1.5em;
+}
+
+/* Main Section */
+main {
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    font-size: 2em;
+/* Section Titles */
+h2 {
+    color: #0074d9;
+    margin-bottom: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-section {
-    padding: 20px;
-}
-
-footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-/* General body styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-/* Header styles */
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-/* Button Styling */
+/* Buttons */
 button {
-    background-color: #4CAF50;
+    background-color: #28a745;
     color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    font-size: 1em;
     cursor: pointer;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #218838;
     transform: scale(1.05);
 }
 
-/* Add icons and style the links */
-a, .button-link {
-    background-color: #008CBA;
-    color: white;
-    padding: 15px 32px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-a:hover, .button-link:hover {
-    background-color: #007bb5;
-    transform: scale(1.05);
-}
-
-/* Style for the home and report section buttons */
-#home .button-link, #report .button-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-/* Icons for buttons */
-#home .button-link i, #report .button-link i {
-    font-size: 20px;
-}
-
-/* Footer styles */
+/* Contact Section */
 footer {
-    text-align: center;
-    background-color: #333;
+    background-color: #0074d9;
     color: white;
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    font-size: 0.9em;
 }
 
-/* Styling for the footer copyright section */
-footer p {
-    margin: 0;
-    font-size: 14px;
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
 }
 
-/* Styling for navigation links */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
+.contact-buttons a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    background-color: #0056b3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+.contact-buttons a:hover {
+    background-color: #004085;
 }
